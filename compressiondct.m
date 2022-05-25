@@ -30,6 +30,7 @@ for i=1:8:L
 end
 %imshow(Ic);
 
+%recuperation de l'image originale pour comparer IC et I
 for i=1:8:L
     for j=1:8:C
         B=Ic(i:i+7,j:j+7);
