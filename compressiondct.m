@@ -23,7 +23,7 @@ for i=1:8:L
                 D=I(i:i+7,j:j+7);%pas:pas+nbr-1 ex:nbr=8
                 DB=dct2(D);
                 Ic(i:i+7,j:j+7)=DB;%image compressee
-                QB=round(DB./Q);
+                QB=round(DB./Q);%Quantification de B
                 Ic(i:i+7,j:j+7)=QB;
     end 
 end
